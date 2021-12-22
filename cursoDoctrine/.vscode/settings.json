@@ -1,0 +1,24 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "database": "academia",
+            "username": "root",
+            "name": "academia"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "banco.sqlite",
+            "database": "${workspaceFolder:cursoDoctrine}/var/data/banco.sqlite"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

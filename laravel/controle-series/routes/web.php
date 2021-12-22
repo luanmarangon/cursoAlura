@@ -41,3 +41,4 @@ Route::get('/sair', function () {
     \Illuminate\Support\Facades\Auth::logout();
     return redirect('/entrar');
 });
+
