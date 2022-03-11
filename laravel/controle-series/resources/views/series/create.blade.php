@@ -25,6 +25,17 @@
             <input type="number" class="form-control" name="ep_por_temporada" id="ep_por_temporada">
         </div>
     </div>
+    <dv class="row">
+        <div class="col-8">
+            <form name="post" action="./?post=true" method="post" enctype="multipart/form-data" class="form-group">
+                <label for="anexo">Anexo</label>
+                <input type="file" name="file" class="form-control" />
+                <!--    Colocando accept para apresentar os arquivos autorizados-->
+                <!--    <input type="file" name="file" accept="image/png, image/jpeg"/>-->
+                <button class="btn btn-outline-primary mt-2">Enviar!</button>
+            </form>
+        </div>
+    </dv>
 
     <button class="btn btn-primary mt-2">Adicionar</button>
 </form>
